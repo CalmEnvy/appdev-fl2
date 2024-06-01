@@ -1,292 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta here -->
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <!-- Meta here -->
 
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Copy Clipboard (Midterm Exam)</title>
-  </head>
-  <body>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
+  <title>Mixed Reality</title>
+</head>
+
+<body>
+
+  
+  <nav class="flex items-center justify-between py-4 px-6 bg-gray-100 shadow-md">
+    <div class="flex items-center space-x-4">
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-2">
+            <img src="images/logodeals.png" class="h-8" alt="Flowbite Logo" />
+            <span class="text-lg font-semibold text-gray-800">Mixed Reality</span>
+        </a>
+        <!-- Navigation Links -->
+        <ul class="hidden lg:flex items-center space-x-6">
+            <li><a href="#" class="text-gray-700 hover:text-gray-900 transition duration-300">Home</a></li>
+            <li><a href="#" class="text-gray-700 hover:text-gray-900 transition duration-300">About</a></li>
+            <li><a href="#" class="text-gray-700 hover:text-gray-900 transition duration-300">Downloads</a></li>
+            <li><a href="#" class="text-gray-700 hover:text-gray-900 transition duration-300">Contacts</a></li>
+        </ul>
+    </div>
+    <!-- Buttons -->
+    <div class="flex items-center space-x-4">
+        <button class="hidden lg:inline-block px-4 py-2 text-sm font-medium text-gray-800 rounded-lg hover:bg-gray-200 transition duration-300">Join Now</button>
+        <button class="hidden lg:inline-block px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-700 transition duration-300">Get Started</button>
+        <!-- Mobile Menu Button -->
+        <button class="lg:hidden flex items-center justify-center w-10 h-10 bg-gray-200 rounded-md hover:bg-gray-300 transition duration-300 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </div>
+</nav>
+
+
+<div class="bg-gray-900">
+  <div class="max-w-screen-md py-12 mx-auto">
+      <div class="relative flex flex-col mb-12 overflow-hidden text-gray-700 bg-white shadow-md rounded-xl bg-clip-border">
+          <img alt="nature" class="h-[32rem] w-full object-cover object-center" src="images/aug1.jpg" />
+      </div>
+      <h2 class="text-white mb-2 block font-sans text-4xl font-semibold leading-[1.3] tracking-normal antialiased">
+          Mixed Reality
+      </h2>
+      <p class="text-gray-300 block font-sans text-base antialiased font-normal leading-relaxed">
+          Imagine a world where digital elements seamlessly blend with your real environment. Mixed reality (MR) creates interactive experiences where virtual objects appear in your physical space. This cutting-edge technology lets you learn, explore, and create in entirely new ways.
+      </p>
+  </div>
+</div>
+
+    </div>
   
 
-    <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
-      <div class="flex-1 flex justify-between items-center">
-          <a href="#" class="text-xl ml-20 ">Copy Paste</a>
+
+  <!-- Hero Section -->
+  <section id="hero" class="flex flex-wrap justify-between">
+
+    <div class="w-full md:w-1/2 lg:w-1/3 mb-4">
+      <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Unveiling a New Reality</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Step into the future with Mixed Reality (MR). This groundbreaking technology seamlessly blends digital elements into your physical space, creating a world where the virtual and real collide.</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 mb-4">
+      <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Revolutionizing How We Learn</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Education is about to take a giant leap forward with Mixed Reality (MR). Imagine interactive textbooks that come to life, historical figures appearing before your eyes, or exploring the human body in stunning detail.</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 mb-4">
+      <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Redefining Design and Collaboration</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mixed Reality (MR) is transforming the way we design and collaborate. Architects can now visualize their creations in real-world scale, allowing for better spatial planning and client feedback.</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 mb-4">
+      <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Boundaries of Entertainment</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Get ready to be transported to new worlds with Mixed Reality (MR). Imagine watching movies where the action spills out of the screen, or attending live concerts from the comfort of your home. </p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 mb-4">
+      <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Transforming How We Work</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mixed Reality (MR) is poised to revolutionize the workplace. Imagine maintenance workers receiving real-time instructions overlaid on their equipment, or surgeons practicing complex procedures in a virtual environment. </p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-1/3 mb-4">
+      <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">A Bridge to the Future</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mixed Reality (MR) is more than just a new technology; it's a bridge to the future. It represents a shift in the way we interact with the world around us, offering boundless possibilities for learning, working, and entertainment.</p>
+        </div>
+      </a>
+    </div>
+
+  
+  </section>
+  
+  
+  <!-- Image -->
+  <section id="features" class="overflow-hidden">
+    <div class="flex flex-wrap justify-center -mx-4">
+      <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+        <img class="w-full h-auto rounded-lg object-cover object-center" src="images/aug7.avif" alt="Image 1">
       </div>
-      <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
-          <nav>
-              <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                  <li><a class="md:p-4 py-3 px-0 block" href="#">Products</a></li>
-                  <li><a class="md:p-4 py-3 px-0 block" href="#">Downloads</a></li>
-                  <li><a class="md:p-4 py-3 px-0 block" href="#">News</a></li>
-                  <li><a class="md:p-4 py-3 px-0 block" href="#">About</a></li>
-                  <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact</a></li>
-                  <li><a class="md:p-4 py-3 px-0 block" href="#">Home</a></li>
-              </ul>
-          </nav>
+      <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+        <img class="w-full h-auto rounded-lg object-cover object-center" src="images/aug3.jpg" alt="Image 2">
       </div>
-  </header>
+      <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+        <img class="w-full h-auto rounded-lg object-cover object-center" src="images/aug4.jpg" alt="Image 3">
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+        <img class="w-full h-auto rounded-lg object-cover object-center" src="images/aug5.webp" alt="Image 4">
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+        <img class="w-full h-auto rounded-lg object-cover object-center" src="images/augh6.jpg" alt="Image 5">
+      </div>
+    </div>
+  </section>
+  
   
 
-    <!-- Hero Section -->
-    <section id="hero">
-      <div class="pt-16 mb-40 section-container">
-        <img src="images/logo.svg" alt="" class="mx-auto my-16" />
+  <!-- Map Section-->
+  <section id="access" class="flex justify-center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3853.849325417325!2d120.61760257528749!3d15.001067067146321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f600abad1213%3A0x6d9c18a1472312c1!2s285%20C%20Mariano%2C%20Santa%20Rita%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1717049694203!5m2!1sen!2sph" width="1600" height="650" style="border: 2px solid #ccc; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
 
-        <p>A summary of all content replicated</p>
-
-        <p class="mb-10 text-2xl section-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          iaculis tortor et nibh egestas, vel aliquam massa venenatis. Sed ante
-          mi, consectetur a mauris a, congue consectetur lacus. Suspendisse ac
-          mauris vulputate, viverra quam nec, commodo ante.
-        </p>
-
-        <!-- Button Container -->
-        <div class="button-container">
-          <a
-            href="#"
-            class="p-4 px-8 duration-200 rounded-full shadow-lg bg-strongCyan hover:opacity-80"
-          >
-            Download for iOS
-          </a>
-          <a
-            href="#"
-            class="p-4 px-8 duration-200 rounded-full shadow-lg bg-lightBlue hover:opacity-80"
-          >
-            Download for Mac
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Snippets Section -->
-    <section id="snippets">
-      <div class="my-20 section-container">
-        <p>Handle your snippets with care</p>
-        <p class="mb-24 text-xl section-content">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-          aperiam reprehenderit ipsum molestiae eos possimus fugiat rem ratione
-          provident, sit alias! Cum similique qui sint sed reiciendis corporis
-          quam maxime!
-        </p>
-      </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features">
-      <div class="my-20 section-container">
-        <div class="relative flex flex-col md:flex-row md:space-x-32">
-          <!-- Image -->
-          <div class="md:w-1/2">
-            <img
-              src="images/image-computer.png"
-              alt=""
-              class="md:absolute top-0 right-[50%]"
-            />
-          </div>
-
-          <!-- Items Container -->
-          <div
-            class="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16"
-          >
-            <!-- Item 1 -->
-            <div>
-              <p>Quick Search</p>
-              <p class="max-w-md text-grayishBlue">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                eaque aperiam quod magni, nobis non?
-              </p>
+  
+ 
+  
+  <!-- CTA Section -->
+  <section class="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
+    <section class="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
+        <img class="xl:max-w-6xl rounded" src="images/aug8.jpg">
+        <div class="rounded content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
+            <div class="flex justify-between font-bold text-sm">
+                <p>Article</p>
+                <p class="text-gray-400">1st June, 2024</p>
             </div>
-            <!-- Item 2 -->
-            <div>
-              <p>iCloud Sync</p>
-              <p class="max-w-md text-grayishBlue">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
-                maxime corporis nostrum facilis ipsam modi.
-              </p>
-            </div>
-            <!-- Item 3 -->
-            <div>
-              <p>Completely History</p>
-              <p class="max-w-md text-grayishBlue">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
-                aperiam possimus odio perferendis saepe aspernatur.
-              </p>
-            </div>
-          </div>
+            <h2 class="text-3xl font-semibold mt-4 md:mt-10">Exploring Mixed Reality in Education</h2>
+            <p class="my-3 text-justify font-medium text-gray-700 leading-relaxed">Discover how mixed reality is revolutionizing education, enhancing learning experiences, and preparing students for the future.</p>
+            <a href="https://www.sciencedirect.com/topics/computer-science/mixed-reality#:~:text=Mixed%20reality%20(MR)%20is%20a,or%203D%20(animated)%20models." target="_blank" rel="noopener noreferrer" class="mt-2 md:mt-5 p-3 px-5 bg-black text-white font-bold text-sm hover:bg-purple-800">Read More</a>
         </div>
-      </div>
     </section>
+  </section>
+  
+  
 
-    <!-- Access Anywhere Section -->
-    <section id="access">
-      <div class="my-20 section-container">
-        <p>Clipboard accessibility on the go</p>
-        <p class="mb-24 text-xl section-content">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-          blanditiis debitis ut corrupti itaque rem voluptatem incidunt
-          assumenda modi officia.
-        </p>
+  
+  
 
-        <img src="images/image-devices.png" alt="" class="mx-auto" />
+<footer class="bg-gray-900 rounded-lg shadow dark:bg-gray-900 m-4">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+          <img src="images/logodeals.png" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Mixed Reality</span>
+      </a>
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+              <li>
+                  <a href="#" class="hover:underline me-4 md:me-6">About</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline">Contact</a>
+              </li>
+          </ul>
       </div>
-    </section>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">Mixed Reality</a>. All Rights Reserved.</span>
+  </div>
+</footer>
 
-    <!-- Supercharge Section -->
-    <section id="supercharge">
-      <div class="my-20 section-container">
-        <p>Supercharge your workflow</p>
-        <p class="mb-16 text-xl section-content">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </p>
-        <!-- Items Container -->
-        <div
-          class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12"
-        >
-          <!-- Item 1 -->
-          <div class="flex flex-col items-center space-y-5">
-            <img src="images/icon-blacklist.svg" alt="" class="mb-6" />
-            <p>Create Blacklists</p>
-            <p class="max-w-md text-grayishBlue">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic,
-              voluptate!
-            </p>
-          </div>
 
-          <!-- Item 2 -->
-          <div class="flex flex-col items-center space-y-5">
-            <img src="images/icon-text.svg" alt="" class="mb-6" />
-            <p>Plain Text Snippets</p>
-            <p class="max-w-md text-grayishBlue">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-              totam.
-            </p>
-          </div>
+</body>
 
-          <!-- Item 3 -->
-          <div class="flex flex-col items-center space-y-5">
-            <img src="images/icon-preview.svg" alt="" class="mb-6" />
-            <p>Sneak Preview</p>
-            <p class="max-w-md text-grayishBlue">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-              porro.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- References Section -->
-    <section id="references">
-      <div
-        class="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:space-y-0"
-      >
-        <img src="images/logo-google.png" alt="" />
-        <img src="images/logo-ibm.png" alt="" />
-        <img src="images/logo-microsoft.png" alt="" />
-        <img src="images/logo-hp.png" alt="" />
-        <img src="images/logo-vector-graphics.png" alt="" />
-      </div>
-    </section>
-
-    <!-- Bottom CTA Section -->
-    <section id="bottom">
-      <div class="my-20 section-container">
-        <p>Clipboard for iOS and MacOS</p>
-        <p class="mb-10 text-xl section-content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vitae
-          iure voluptatem saepe asperiores voluptates voluptatibus esse
-          provident corporis impedit neque, quidem libero dolor placeat.
-        </p>
-
-        <!-- Button Container -->
-        <div class="button-container">
-          <a
-            href="#"
-            class="p-4 px-8 duration-200 rounded-full shadow-lg bg-strongCyan hover:opacity-80"
-          >
-            Download for iOS
-          </a>
-          <a
-            href="#"
-            class="p-4 px-8 duration-200 rounded-full shadow-lg bg-lightBlue hover:opacity-80"
-          >
-            Download for Mac
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <footer class="bg-gray-50">
-      <div class="section-container">
-        <div class="flex flex-col items-center justify-between md:flex-row">
-          <!-- Image -->
-          <img src="images/logo.svg" alt="" class="scale-50" />
-          <!-- Container for Menus & Social -->
-          <div
-            class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
-          >
-            <!-- Menus -->
-            <div
-              class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
-            >
-              <!-- Menu 1 -->
-              <div class="flex flex-col space-y-4 text-center md:text-left">
-                <div><a href="#" class="hover:text-strongCyan">FAQs</a></div>
-                <div>
-                  <a href="#" class="hover:text-strongCyan">Contact Us</a>
-                </div>
-              </div>
-              <!-- Menu 2 -->
-              <div class="flex flex-col space-y-4 text-center md:text-left">
-                <div>
-                  <a href="#" class="hover:text-strongCyan">Privacy Policy</a>
-                </div>
-                <div>
-                  <a href="#" class="hover:text-strongCyan">Press Kit</a>
-                </div>
-              </div>
-              <!-- Menu 3 -->
-              <div class="flex flex-col space-y-4 text-center md:text-left">
-                <div>
-                  <a href="#" class="hover:text-strongCyan">Install Guide</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Social Icons -->
-            <div class="flex justify-between w-32 py-1">
-              <a href="#"
-                ><img
-                  src="images/icon-facebook.svg"
-                  alt=""
-                  class="duration-200 ficon"
-              /></a>
-              <a href="#"
-                ><img
-                  src="images/icon-twitter.svg"
-                  alt=""
-                  class="duration-200 ficon"
-              /></a>
-              <a href="#"
-                ><img
-                  src="images/icon-instagram.svg"
-                  alt=""
-                  class="duration-200 ficon"
-              /></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
